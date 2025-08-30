@@ -306,6 +306,9 @@ ul ul {
   }
 }
 
+.navbar-logo {
+  max-height: 70px;
+}
 /* Language dropdown menu styling */
 .navbar .dropdown-menu {
 }
@@ -323,7 +326,7 @@ ul ul {
 
 .btn {
   background-color: $white;
-  color: rgb(255,24,24);
+  color: rgb(0,0,0);
   border-color: $red;
   font-variant-caps: all-petite-caps;
   border-radius: 10px;
@@ -332,6 +335,10 @@ ul ul {
     color: $black;
     border-color: $black;
   }
+.button a:link {
+    color: white;
+}  
+  
 }
 
 .callout-red {
@@ -357,6 +364,7 @@ ul ul {
   font-weight: bold;
   display: flex;
 }
+
 
 /* Style the rest of the content */
 .callout-red > *:not(:first-child) {
